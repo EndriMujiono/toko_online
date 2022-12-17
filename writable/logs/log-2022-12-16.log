@@ -1,0 +1,40 @@
+CRITICAL - 2022-12-16 20:54:52 --> Invalid file: transaksi/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('transaksi/index', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(28): view('transaksi/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:01:57 --> Invalid file: transaksi/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('transaksi/index', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(28): view('transaksi/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:20:26 --> Attempt to read property "id" on null
+in APPPATH\Views\shop\product.php on line 10.
+ 1 APPPATH\Views\shop\product.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\shop\\product.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\shop.php(79): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('home.html')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:20:32 --> Attempt to read property "id" on null
+in APPPATH\Views\shop\product.php on line 10.
+ 1 APPPATH\Views\shop\product.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Views\\shop\\product.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\shop.php(79): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('home.html')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
